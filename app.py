@@ -18,11 +18,11 @@ st.set_page_config(
 # ======================================================
 @st.cache_resource
 def load_model():
-    return joblib.load("C:/Python Programming/idr2usd-exchange-rate/models/model.pkl")
+    return joblib.load("models/model.pkl")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Python Programming/idr2usd-exchange-rate/data/processed/idr2usd-exchange-rate-processed.csv"
+    return pd.read_csv("data/processed/idr2usd-exchange-rate-processed.csv"
 )
 
 model = load_model()
