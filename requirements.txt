@@ -1,9 +1,8 @@
+streamlit
 pandas
-numpy
 seaborn
-matplotlib
+numpy
 scikit-learn
-catboost
-xgboost
-Flask
--e .
+joblib
+matplotlib
+optuna
